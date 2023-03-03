@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+ 
+    body{
+    background-image: url('../images/maxresdefault.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.container{
+margin: 0 auto;
+text-align: center;
+padding-top: 400px;
+display: flex;
+justify-content: center;
+}
+
+.text1{
+    font-size: 30px;
+    color: white;
+    text-transform:uppercase ;
+    margin-right: 200px;
+}
+
+.text1:last-child{
+    margin-right: 0;
+}
+
+.container-bluepurple{
+    margin-top: 30px;
+}
+
+
+.container-bluepurple a{
+    text-decoration: none;
+}
+
+.neon-btn{
+    border:1px solid;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 300;
+    transition: 0.2s;
+}
+
+.blue{
+    color:#4cc9f0;
+}
+
+.purple{
+    color:#f038ff;
+}
+
+.neon-btn:hover{
+    color:white;
+    border: 0;
+}
+
+.blue:hover{
+    background-color: #4cc9f0;
+    box-shadow: 10px 10px 100px 6px rgba(76, 201, 240, 1);
+}
+
+.purple:hover{
+    background-color: #f038ff;
+    box-shadow: 10px 10px 100px 6px rgba(240, 56, 255, 1);
+}
+
+@media (max-width:1075px){
+    .text1{
+        margin-right: 25px;
+    }
+    .text1:last-child{
+        margin-right: 0;
+    }
+}
+
+@media (max-width:900px){
+    .text1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:753px){
+    .text1{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:587px){
+    .text1{
+        margin-right: 100px;
+        font-size: 22px;
+    }
+    .container{
+        max-width: 450px;
+    }
+}
+
+@media (max-width:480px){
+    .text1{
+        font-size: 20px;
+        margin-right: -25px;
+    }
+}
+
+@media (max-width:384px){
+    .text1{
+        margin-right: -10px;
+    }
+}
+
+@media (max-width:356px){
+    .container{
+        display: inline-block;
+        padding-top:100px;
+    }
+
+    .text1{
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width:320px){
+    .container{
+        display:block;
+        padding-top:15px;
+    }
+
+    .text1{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:375px){
+    .container{
+    
+        padding-top:40px;
+    }
+
+    .text1{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:414px){
+    .container{
+        padding-top:200px;
+    }
+
+    .text1{
+        margin-top: 100px;
+    }
+}
